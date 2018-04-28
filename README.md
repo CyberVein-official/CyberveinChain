@@ -17,7 +17,7 @@ cybervein virtual machine，基于EVM改造，执行智能合约的虚拟机
 ## cvdb
 cybervein database，区块链节点的数据库服务
 ## cvpoc
-cybervein proof of contribute，共识算法
+cybervein proof of contribution，共识算法
 ## cvsample
 cybervein samples，例子程序
 ## cvapi
