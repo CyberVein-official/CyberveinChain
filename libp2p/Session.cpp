@@ -51,10 +51,10 @@ Session::~Session()
 	}
 	catch (...) {}
 
-	if (m_CABaseData)
+	if (m_SessionBaseData)
 	{
-		delete m_CABaseData;
-		m_CABaseData = nullptr;
+		delete m_SessionBaseData;
+		m_SessionBaseData = nullptr;
 	}
 }
 
@@ -653,13 +653,13 @@ void Session::multiplexAll()
 		f.second->writer.mux(*m_io, maxFrameSize(), m_encFrames);
 }
 
-CABaseData* Session::getCABaseData()
+SessionBaseData* Session::getSessionBaseData()
 {
-	return m_CABaseData;
+	return m_SessionBaseData;
 }
 
-void Session::saveCABaseData(CABaseData* baseData)
+void Session::saveSessionBaseData(SessionBaseData* baseData)
 {
-	m_CABaseData = baseData;
+	m_SessionBaseData = baseData;
 }
 
