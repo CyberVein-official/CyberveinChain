@@ -1,4 +1,5 @@
 
+
 #pragma once
 
 #include <mutex>
@@ -17,7 +18,6 @@
 #include "RLPXFrameWriter.h"
 #include "RLPXFrameReader.h"
 #include "SessionCAData.h"
-#include "libstatistics/InterfaceStatistics.h"
 
 namespace dev
 {
@@ -109,7 +109,6 @@ public:
 
 	CABaseData* getCABaseData();
 	void saveCABaseData(CABaseData*);
-	bool setStatistics(dev::InterfaceStatistics *stats);
 
 private:
 	static RLPStream& prep(RLPStream& _s, PacketType _t, unsigned _args = 0);
@@ -160,7 +159,6 @@ private:
 	std::chrono::steady_clock::time_point m_lastReceived;	///< Time point of last message.
 
 	std::map<CapDesc, std::shared_ptr<Capability>> m_capabilities;	///< The peer's capability set.
-	std::shared_ptr<dev::InterfaceStatistics> m_statistics = nullptr;
 
 	// framing-related stuff (protected by x_writeQueue mutex)
 	struct Framing
