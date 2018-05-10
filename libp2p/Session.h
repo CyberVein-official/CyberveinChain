@@ -17,7 +17,7 @@
 #include "Common.h"
 #include "RLPXFrameWriter.h"
 #include "RLPXFrameReader.h"
-#include "SessionCAData.h"
+#include "SessionData.h"
 
 namespace dev
 {
@@ -61,8 +61,8 @@ public:
 	virtual std::chrono::steady_clock::time_point lastReceived() const = 0;
 
 	virtual ReputationManager& repMan() = 0;
-	virtual CABaseData* getCABaseData() = 0;
-	virtual void saveCABaseData(CABaseData*) = 0;
+	virtual SessionBaseData* getSessionBaseData() = 0;
+	virtual void saveSessionBaseData(SessionBaseData*) = 0;
 };
 
 /**
@@ -107,8 +107,8 @@ public:
 
 	ReputationManager& repMan() override;
 
-	CABaseData* getCABaseData();
-	void saveCABaseData(CABaseData*);
+	SessionBaseData* getSessionBaseData();
+	void saveSessionBaseData(SessionBaseData*);
 
 private:
 	static RLPStream& prep(RLPStream& _s, PacketType _t, unsigned _args = 0);
@@ -177,7 +177,7 @@ private:
 	std::shared_ptr<Framing> getFraming(uint16_t _protocolID);
 	void multiplexAll();
 
-	CABaseData *m_CABaseData = nullptr;
+	SessionBaseData *m_SessionBaseData = nullptr;
 	unsigned m_start_t;
 };
 
