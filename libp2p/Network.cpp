@@ -225,3 +225,4 @@ bi::tcp::endpoint Network::resolveHost(string const& _addr)
 	}
 	return ep;
 }
+
