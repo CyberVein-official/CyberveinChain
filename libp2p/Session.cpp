@@ -1,4 +1,5 @@
 
+
 #include "Session.h"
 
 #include <chrono>
@@ -97,6 +98,7 @@ template <class T> vector<T> randomSelection(vector<T> const& _t, unsigned _n)
 	return ret;
 }
 
+// 收到数据包
 bool Session::readPacket(uint16_t _capId, PacketType _t, RLP const& _r)
 {
 	m_lastReceived = chrono::steady_clock::now();
@@ -661,12 +663,3 @@ void Session::saveCABaseData(CABaseData* baseData)
 	m_CABaseData = baseData;
 }
 
-bool Session::setStatistics(dev::InterfaceStatistics *stats)
-{
-		if (stats && m_statistics.get() == nullptr)
-		{
-			m_statistics.reset(stats);
-			return true;
-		}
-		return false;
-}
