@@ -106,6 +106,7 @@ using CapDesc = std::pair<std::string, u256>;
 using CapDescSet = std::set<CapDesc>;
 using CapDescs = std::vector<CapDesc>;
 
+
 struct PeerSessionInfo
 {
 	NodeID const id;
@@ -127,7 +128,9 @@ enum class PeerType
 	Required
 };
 
-
+/**
+ * @brief IPv4,UDP/TCP endpoints.
+ */
 class NodeIPEndpoint
 {
 public:
@@ -137,7 +140,6 @@ public:
 		StreamInline
 	};
 	
-	/// Setting true causes isAllowed to return true for all addresses. (Used by test fixtures)
 	static bool test_allowLocal;
 
 	NodeIPEndpoint() = default;
@@ -173,7 +175,6 @@ struct NodeSpec
 {
 	NodeSpec() {}
 
-	/// Accepts user-readable strings of the form (enode://pubkey@)host({:port,:tcpport.udpport})
 	NodeSpec(std::string const& _user);
 
 	NodeSpec(std::string const& _addr, uint16_t _port, int _udpPort = -1):
@@ -283,7 +284,7 @@ template <> struct hash<bi::address>
 			return boost::hash_range(range.begin(), range.end());
 		}
 		if (_a.is_unspecified())
-			return static_cast<size_t>(0x3487194039229152ull);  // Chosen by fair dice roll, guaranteed to be random
+			return static_cast<size_t>(0x3487194039229152ull);  
 		return std::hash<std::string>()(_a.to_string());
 	}
 };
