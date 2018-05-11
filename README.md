@@ -6,9 +6,9 @@ CyberVein: http://cybervein.org/
 底层通信协议代码库，包括p2p网络连接、会话管理、异常处理等底层网络相关的代码组件
 ## libutil
 公共代码库，项目常用的公共代码库，包括加密解密、签名验签处理等等
-## libcore
+## libdevcore
 核心服务库，区块链核心库，包括块链数据结构定义、内存池管理、队列管理等等
-## libcrypto
+## libdevcrypto
 加密算法库
 ## cv
 cybervein核心服务，区块链节点启动时的核心库，主要入口
