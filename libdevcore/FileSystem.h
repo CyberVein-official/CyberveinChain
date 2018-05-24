@@ -35,7 +35,7 @@ void setConfigPath(std::string const& _configPath);
 
 std::string getConfigPath();
 
-void setCaInitType(std::string const& _caInitType = "webank");
+void setCaInitType(std::string const& _caInitType = "cybervein");
 
 std::string getCaInitType();
 }
