@@ -112,7 +112,7 @@ string dev::getCaInitType()
 {
 	if (s_caInitType.empty())
 	{
-		return "webank";
+		return "cybervein";
 	}
 
 	return s_caInitType;
