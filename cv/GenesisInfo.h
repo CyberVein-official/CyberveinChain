@@ -2,7 +2,7 @@
 #pragma once
 
 #include <string>
-#include <libcvdevcore/FixedHash.h>
+#include <libdevcore/FixedHash.h>
 #include <libcvcore/Common.h>
 
 namespace dev
