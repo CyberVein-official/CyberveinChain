@@ -34,18 +34,25 @@ P2P communication protocol, communication management and exception handling.
 ## 编译代码
 ### 环境准备
 Cent OS 7.2 64位服务器
+
 yum install -y git openssl openssl-devel deltarpm cmake3 gcc-c++
+
 yum install -y nodejs
 
 ### 获取源码
 cd /data
-git clone
+
+git clone https://github.com/Cyberveinofficial/CyberVeinChain.git
+
 cd CyberVeinChain
+
 mkdir build
+
 cd ./build
 
 ### 开始编译
 cmake3 ../
+
 make
 make install
 
