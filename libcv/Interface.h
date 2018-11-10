@@ -16,7 +16,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 struct SyncStatus;
@@ -251,7 +251,7 @@ namespace std { void swap(dev::eth::Watch& _a, dev::eth::Watch& _b); }
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 class Watch: public boost::noncopyable

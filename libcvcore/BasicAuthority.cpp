@@ -3,7 +3,7 @@
 #include "BasicAuthority.h"
 #include <libdevcore/CommonJS.h>
 #include <libdevcore/easylog.h>
-#include <libethereum/Interface.h>
+#include <libcv/Interface.h>
 #include "Exceptions.h"
 #include "BlockHeader.h"
 using namespace std;

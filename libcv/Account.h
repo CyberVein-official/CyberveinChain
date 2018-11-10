@@ -2,15 +2,15 @@
 
 #pragma once
 
-#include <libcvcore/Common.h>
-#include <libcvcore/RLP.h>
-#include <libcvcore/TrieDB.h>
-#include <libcvcore/SHA3.h>
+#include <libdevcore/Common.h>
+#include <libdevcore/RLP.h>
+#include <libdevcore/TrieDB.h>
+#include <libdevcore/SHA3.h>
 #include <libcvcore/Common.h>
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 class Account

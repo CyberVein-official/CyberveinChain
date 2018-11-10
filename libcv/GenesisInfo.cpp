@@ -5,9 +5,9 @@
 #include "GenesisInfo.h"
 
 using namespace dev;
-using namespace cv;
+using namespace eth;
 
-std::string const dev::cv::c_genesisInfoTestBasicAuthority =
+std::string const dev::eth::c_genesisInfoTestBasicAuthority =
 R"E(
 {
 	"sealEngine": "BasicAuthority",
@@ -282,7 +282,7 @@ R"E(
 	}]
 })E";
 
-dev::Addresses dev::cv::childDaos()
+dev::Addresses dev::eth::childDaos()
 {
 	Addresses daos;
 	json_spirit::mValue val;

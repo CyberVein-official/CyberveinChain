@@ -5,10 +5,10 @@
 #include <boost/filesystem.hpp>
 #include <boost/algorithm/string.hpp>
 #include <libdevcore/easylog.h>
-#include <libethereum/Defaults.h>
-#include <libethereum/EthereumHost.h>
-#include <libethereum/ClientTest.h>
-#include <libethereum/NodeConnParamsManagerApi.h>
+#include <libcv/Defaults.h>
+#include <libcv/EthereumHost.h>
+#include <libcv/ClientTest.h>
+#include <libcv/NodeConnParamsManagerApi.h>
 #include "BuildInfo.h"
 #include <libpbftseal/PBFT.h>
 #include <libpbftseal/PBFTClient.h>

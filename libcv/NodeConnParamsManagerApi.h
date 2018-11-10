@@ -18,7 +18,7 @@ enum AccountType {
 namespace dev
 {
 	class NetworkFace;
-	namespace cv
+	namespace eth
 	{
 		class EthereumHost;
 		class SystemContractApi;
@@ -159,6 +159,6 @@ namespace dev
 
 	class NodeConnManagerSingleton{
 	public:
-		static dev::cv::NodeConnParamsManagerApi& GetInstance();
+		static dev::eth::NodeConnParamsManagerApi& GetInstance();
 	};
 }

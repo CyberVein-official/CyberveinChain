@@ -5,7 +5,7 @@
 #include <functional>
 #include <json/json.h>
 #include <libdevcore/easylog.h>
-#include <libcvcore/Instruction.h>
+#include <libcvvmcore/Instruction.h>
 #include <libcvcore/Common.h>
 #include <libcvvm/VMFace.h>
 #include "Transaction.h"
@@ -20,7 +20,7 @@ namespace dev
 
 class OverlayDB;
 
-namespace cv
+namespace eth
 {
 
 class State;

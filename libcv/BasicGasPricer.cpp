@@ -10,7 +10,7 @@
 #include "BlockChain.h"
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 void BasicGasPricer::update(BlockChain const& _bc)
 {

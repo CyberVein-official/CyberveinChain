@@ -8,7 +8,10 @@
 #include <libdevcore/easylog.h>
 #include <libdevcore/MemoryDB.h>
 #include <libdevcore/FileSystem.h>
-
+//ÅÐ¶ÏÊÇ·ñ°üº¬odbc
+#if defined ETH_HAVE_ODBC
+#include "<odbc/MysqlDB.h>"
+#endif
 
 namespace dev
 {
@@ -49,7 +52,12 @@ private:
 	std::string m_ivData;
 
 	using MemoryDB::clear;
+	//ÅÐ¶ÏÊÇ·ñ°üº¬odbc
+	#if defined ETH_HAVE_ODBC
 	std::shared_ptr<ldb::DB> m_db;
+	#else
+	std::shared_ptr<ldb::DB> m_db;
+	#endif
 	
 	ldb::ReadOptions m_readOptions;
 	ldb::WriteOptions m_writeOptions;

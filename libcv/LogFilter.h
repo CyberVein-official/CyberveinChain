@@ -14,12 +14,12 @@
 namespace dev
 {
 
-namespace cv
+namespace eth
 {
 class LogFilter;
 }
 
-namespace cv
+namespace eth
 {
 
 /// Simple stream output for the StateDiff.

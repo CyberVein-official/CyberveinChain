@@ -6,7 +6,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 class Block;

@@ -4,7 +4,7 @@
 #include "Session.h"
 #include "Peer.h"
 #include "RLPxHandshake.h"
-#include "libethereum/NodeConnParamsManager.h"
+#include "libcv/NodeConnParamsManager.h"
 #include "libdevcrypto/Rsa.h"
 #include "libdevcore/Hash.h"
 #include <fstream>

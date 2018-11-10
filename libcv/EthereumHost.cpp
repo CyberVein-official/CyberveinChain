@@ -20,7 +20,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 using namespace p2p;
 
 unsigned const EthereumHost::c_oldProtocolVersion = 62; //TODO: remove this once v63+ is common

@@ -3,11 +3,11 @@
 #pragma once
 
 #include <tuple>
-#include <libethereum/Client.h>
+#include <libcv/Client.h>
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 DEV_SIMPLE_EXCEPTION(ChainParamsInvalid);

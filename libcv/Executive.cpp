@@ -5,9 +5,9 @@
 #include <boost/timer.hpp>
 #include <json/json.h>
 #include <libdevcore/CommonIO.h>
-#include <libevm/VMFactory.h>
-#include <libevm/VM.h>
-#include <libethcore/CommonJS.h>
+#include <libcvvm/VMFactory.h>
+#include <libcvvm/VM.h>
+#include <libcvcore/CommonJS.h>
 #include "Interface.h"
 #include "State.h"
 #include "ExtVM.h"

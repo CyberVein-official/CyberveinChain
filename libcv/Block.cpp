@@ -8,10 +8,10 @@
 #include <libdevcore/CommonIO.h>
 #include <libdevcore/Assertions.h>
 #include <libdevcore/TrieHash.h>
-#include <libevmcore/Instruction.h>
-#include <libethcore/Exceptions.h>
-#include <libethcore/SealEngine.h>
-#include <libevm/VMFactory.h>
+#include <libcvvmcore/Instruction.h>
+#include <libcvcore/Exceptions.h>
+#include <libcvcore/SealEngine.h>
+#include <libcvvm/VMFactory.h>
 #include "BlockChain.h"
 #include "Defaults.h"
 #include "ExtVM.h"

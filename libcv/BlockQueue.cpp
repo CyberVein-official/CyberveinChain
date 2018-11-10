@@ -10,7 +10,7 @@
 #include "State.h"
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 
 

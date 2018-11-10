@@ -26,7 +26,7 @@ namespace dev
 
 class RLPStream;
 
-namespace cv
+namespace eth
 {
 
 class TransactionQueue;

@@ -10,12 +10,12 @@
 #include <libdevcore/Common.h>
 #include <libdevcore/easylog.h>
 #include <libdevcore/CommonIO.h>
-#include <libethcore/CommonJS.h>
+#include <libcvcore/CommonJS.h>
 #include <libdevcore/Exceptions.h>
 #include <libdevcore/FileSystem.h>
-#include <libethereum/SystemContract.h>
+#include <libcv/SystemContract.h>
 #include <libdevcrypto/Rsa.h>
-#include <libethereum/NodeConnParamsManagerApi.h>
+#include <libcv/NodeConnParamsManagerApi.h>
 #include "Session.h"
 #include "Common.h"
 #include "Capability.h"

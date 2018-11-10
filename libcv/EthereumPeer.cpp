@@ -13,7 +13,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 using namespace p2p;
 
 static const unsigned c_maxIncomingNewHashes = 1024;

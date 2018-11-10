@@ -14,8 +14,8 @@
 #include <libdevcore/CommonIO.h>
 #include <libdevcore/Guards.h>
 #include <libdevcore/Worker.h>
-#include <libethcore/SealEngine.h>
-#include <libethcore/ABI.h>
+#include <libcvcore/SealEngine.h>
+#include <libcvcore/ABI.h>
 #include <libp2p/Common.h>
 #include "BlockChain.h"
 #include "Block.h"
@@ -25,7 +25,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 class Client;

@@ -5,7 +5,7 @@
 #include <libdevcore/RLP.h>
 #include <libdevcore/SHA3.h>
 #include <libdevcore/Guards.h>
-#include <libethcore/Common.h>
+#include <libcvcore/Common.h>
 #include <libweb3jsonrpc/JsonHelper.h>
 
 namespace dev

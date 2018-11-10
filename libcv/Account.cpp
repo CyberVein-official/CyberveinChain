@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 void Account::setNewCode(bytes&& _code)
 {

@@ -12,7 +12,7 @@ namespace dev
 
 class OverlayDB;
 
-namespace cv
+namespace eth
 {
 
 #if ETH_DEBUG

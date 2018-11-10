@@ -9,7 +9,7 @@
 #include <libdevcore/TrieHash.h>
 #include <libcvvmcore/Instruction.h>
 #include <libcvcore/Exceptions.h>
-#include <libcv/VMFactory.h>
+#include <libcvvm/VMFactory.h>
 #include "BlockChain.h"
 #include "CodeSizeCache.h"
 #include "Defaults.h"
@@ -22,8 +22,8 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
-using namespace dev::cv::detail;
+using namespace dev::eth;
+using namespace dev::eth::detail;
 namespace fs = boost::filesystem;
 
 

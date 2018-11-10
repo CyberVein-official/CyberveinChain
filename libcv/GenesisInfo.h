@@ -6,7 +6,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 extern std::string const c_genesisInfoTestBasicAuthority;

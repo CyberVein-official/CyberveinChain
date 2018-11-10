@@ -12,7 +12,7 @@
 namespace dev
 {
 
-namespace cv
+namespace eth
 {
 
 struct InstalledFilter

@@ -17,7 +17,7 @@
 namespace dev
 {
 
-namespace cv
+namespace eth
 {
 
 class BlockChain;

@@ -8,7 +8,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 /**

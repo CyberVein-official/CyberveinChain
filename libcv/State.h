@@ -23,7 +23,7 @@ namespace dev
 
 namespace test { class ImportTest; class StateLoader; }
 
-namespace cv
+namespace eth
 {
 
 // Import-specific errinfos

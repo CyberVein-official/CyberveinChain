@@ -10,7 +10,7 @@
 namespace dev
 {
 
-namespace cv
+namespace eth
 {
 
 struct MineInfo: public WorkingProgress {};

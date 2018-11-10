@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include <libevmcore/Instruction.h>
+#include <libcvvmcore/Instruction.h>
 #include <libdevcore/Common.h>
 
 namespace dev

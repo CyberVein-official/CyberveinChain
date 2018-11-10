@@ -12,7 +12,7 @@
 #include <libcvcore/Common.h>
 #include <libcvcore/BlockHeader.h>
 #include <libcvcore/SealEngine.h>
-#include <libevm/ExtVMFace.h>
+#include <libcvvm/ExtVMFace.h>
 #include "BlockDetails.h"
 #include "Account.h"
 #include "Transaction.h"
@@ -20,7 +20,7 @@
 #include "VerifiedBlock.h"
 #include "ChainParams.h"
 #include "State.h"
-#include <libethereum/NonceCheck.h>
+#include <libcv/NonceCheck.h>
 #include "Interface.h"
 #include <libdevcrypto/AES.h>
 #include <libdevcore/FileSystem.h>
@@ -41,7 +41,7 @@ namespace dev
 
 class OverlayDB;
 
-namespace cv
+namespace eth
 {
 
 static const h256s NullH256s;

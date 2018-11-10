@@ -10,11 +10,11 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 
 
-namespace dev { namespace cv { const u256 c_maxGasEstimate = 50000000; } }
+namespace dev { namespace eth { const u256 c_maxGasEstimate = 50000000; } }
 
 bool ClientBase::isNonceOk(Transaction const&_ts) const
 {

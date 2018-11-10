@@ -19,10 +19,10 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 using namespace p2p;
 
-std::ostream& dev::cv::operator<<(std::ostream& _out, ActivityReport const& _r)
+std::ostream& dev::eth::operator<<(std::ostream& _out, ActivityReport const& _r)
 {
 	_out << "Since " << toString(_r.since) << " (" << std::chrono::duration_cast<std::chrono::seconds>(std::chrono::system_clock::now() - _r.since).count();
 	_out << "): " << _r.ticks << "ticks";

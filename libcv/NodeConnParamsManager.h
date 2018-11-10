@@ -9,7 +9,7 @@ namespace dev
 {
 class NetworkFace;
 
-namespace cv
+namespace eth
 {
 
 

@@ -15,7 +15,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 using namespace p2p;
 
 unsigned const c_maxPeerUknownNewBlocks = 1024; /// Max number of unknown new blocks peer can give us
@@ -23,7 +23,7 @@ unsigned const c_maxRequestHeaders = 1024;
 unsigned const c_maxRequestBodies = 1024;
 
 
-std::ostream& dev::cv::operator<<(std::ostream& _out, SyncStatus const& _sync)
+std::ostream& dev::eth::operator<<(std::ostream& _out, SyncStatus const& _sync)
 {
 	_out << "protocol: " << _sync.protocolVersion << "\n";
 	_out << "state: " << EthereumHost::stateName(_sync.state) << " ";

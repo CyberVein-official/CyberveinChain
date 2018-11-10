@@ -5,14 +5,14 @@
 #include <map>
 #include <functional>
 #include <libcvcore/Common.h>
-#include <libevm/ExtVMFace.h>
+#include <libcvvm/ExtVMFace.h>
 #include <libcvcore/SealEngine.h>
 #include "State.h"
 #include "Executive.h"
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 class SealEngineFace;

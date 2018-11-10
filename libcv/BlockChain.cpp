@@ -175,9 +175,9 @@ bool BlockChain::isNonceOk(Transaction const&_ts, bool _needinsert) const
 {
 	LOG(TRACE) << "BlockChain::filterCheck Scene：" << (int)(_checkscene);
 	return m_interface->filterCheck(_t, _checkscene);
-}*/
+}
 
-/*void    BlockChain::updateSystemContract(std::shared_ptr<Block> block)
+void    BlockChain::updateSystemContract(std::shared_ptr<Block> block)
 {
 	m_interface->updateSystemContract(block);
 }*/

@@ -5,15 +5,15 @@
 
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 using namespace p2p;
 
-ClientTest& dev::cv::asClientTest(Interface& _c)
+ClientTest& dev::eth::asClientTest(Interface& _c)
 {
 	return dynamic_cast<ClientTest&>(_c);
 }
 
-ClientTest* dev::cv::asClientTest(Interface* _c)
+ClientTest* dev::eth::asClientTest(Interface* _c)
 {
 	return &dynamic_cast<ClientTest&>(*_c);
 }

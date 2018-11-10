@@ -4,7 +4,7 @@
 #include <libdevcore/SHA3.h>
 #include <libdevcore/Hash.h>
 #include <libdevcrypto/Common.h>
-#include <libethcore/Common.h>
+#include <libcvcore/Common.h>
 using namespace std;
 using namespace dev;
 using namespace dev::eth;

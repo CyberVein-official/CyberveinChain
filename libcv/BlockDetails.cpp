@@ -5,7 +5,7 @@
 #include <libdevcore/Common.h>
 using namespace std;
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 BlockDetails::BlockDetails(RLP const& _r)
 {

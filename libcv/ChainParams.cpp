@@ -7,13 +7,13 @@
 #include <libcvcore/SealEngine.h>
 #include <libcvcore/BlockHeader.h>
 #include <libcvcore/Precompiled.h>
-#include <libethereum/NodeConnParamsManagerApi.h>
+#include <libcv/NodeConnParamsManagerApi.h>
 #include "GenesisInfo.h"
 #include "State.h"
 #include "Account.h"
 using namespace std;
 using namespace dev;
-using namespace cv;
+using namespace eth;
 namespace js = json_spirit;
 
 

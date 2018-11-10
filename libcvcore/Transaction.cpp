@@ -4,10 +4,10 @@
 #include <libdevcore/easylog.h>
 #include <libdevcore/CommonIO.h>
 #include <libdevcrypto/Common.h>
-#include <libevmcore/EVMSchedule.h>
-#include <libethcore/Exceptions.h>
+#include <libcvvmcore/EVMSchedule.h>
+#include <libcvcore/Exceptions.h>
 #include <libdevcore/easylog.h>
-#include <libethcore/CommonJS.h>
+#include <libcvcore/CommonJS.h>
 #include <libweb3jsonrpc/JsonHelper.h>
 #include "Transaction.h"
 #include <libdevcore/easylog.h>
@@ -184,7 +184,6 @@ Address const& TransactionBase::safeSender() const noexcept
 
 Address const& TransactionBase::sender() const
 {
-	LOG(TRACE) << "TransactionBase::sender:" <<;
 	if (!m_sender)
 	{
 		auto p = recover(m_vrs, sha3(WithoutSignature));

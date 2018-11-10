@@ -15,11 +15,11 @@
 
 
 using namespace std;
-using namespace dev::cv;
+using namespace dev::eth;
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 

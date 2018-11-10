@@ -12,8 +12,8 @@
 #include <libdevcore/Guards.h>
 #include <libdevcore/Exceptions.h>
 #include <libp2p/Host.h>
-#include <libethereum/Client.h>
-#include <libethereum/ChainParams.h>
+#include <libcv/Client.h>
+#include <libcv/ChainParams.h>
 
 namespace dev
 {

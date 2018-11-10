@@ -6,7 +6,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace cv;
+using namespace eth;
 
 Mutex NodeConnParamsManagerApi::_xNodeConnParam;
 Mutex NodeConnParamsManagerApi::_xConfigNodeConnParam;
@@ -78,13 +78,13 @@ dev::eth::NodeConnParamsManagerApi& NodeConnManagerSingleton::GetInstance()
 {
 	if (getCaInitType() == "webank")
 	{
-		static dev::cv::NodeConnParamsManager nodeConnParamsManager(contentsString(getConfigPath()));
+		static dev::eth::NodeConnParamsManager nodeConnParamsManager(contentsString(getConfigPath()));
 
 		return nodeConnParamsManager;
 	}
 	else{
 		//钜真修改为他们的子类实现方式
-		static dev::cv::NodeConnParamsManager nodeConnParamsManager(contentsString(getConfigPath()));
+		static dev::eth::NodeConnParamsManager nodeConnParamsManager(contentsString(getConfigPath()));
 
 		return nodeConnParamsManager;
 	}

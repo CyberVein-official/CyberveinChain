@@ -5,7 +5,7 @@
 #include <boost/thread.hpp>
 
 using namespace dev;
-using namespace dev::cv;
+using namespace dev::eth;
 
 namespace // anonymous
 {

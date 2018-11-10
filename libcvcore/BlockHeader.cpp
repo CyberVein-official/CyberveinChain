@@ -5,7 +5,7 @@
 #include <libdevcore/RLP.h>
 #include <libdevcore/TrieDB.h>
 #include <libdevcore/TrieHash.h>
-#include <libethcore/Common.h>
+#include <libcvcore/Common.h>
 #include "Exceptions.h"
 #include "BlockHeader.h"
 using namespace std;

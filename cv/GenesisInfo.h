@@ -7,7 +7,7 @@
 
 namespace dev
 {
-namespace cv
+namespace eth
 {
 
 /// The network id.

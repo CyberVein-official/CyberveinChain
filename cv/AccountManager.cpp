@@ -1,7 +1,7 @@
 #include <libdevcore/SHA3.h>
 #include <libdevcore/FileSystem.h>
-#include <libethcore/ICAP.h>
-#include <libethcore/KeyManager.h>
+#include <libcvcore/ICAP.h>
+#include <libcvcore/KeyManager.h>
 #include "AccountManager.h"
 using namespace std;
 using namespace dev;

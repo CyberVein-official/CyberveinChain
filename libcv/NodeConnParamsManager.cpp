@@ -17,7 +17,7 @@
 
 using namespace std;
 using namespace dev;
-using namespace cv;
+using namespace eth;
 namespace js = json_spirit;
 
 //Mutex NodeConnParamsManager::_xNodeConnParam;
