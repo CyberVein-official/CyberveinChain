@@ -54,6 +54,7 @@ cd ./build
 cmake3 ../
 
 make
+
 make install
 
 
