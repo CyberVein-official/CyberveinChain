@@ -3,7 +3,7 @@ Official C++ implementation of CyberVein project - <http://cybervein.org>
 
 Welcome to the CyberVein source code repository!
 
-Currently development is on very initial stage. Main modules of repository are p2p network protocol, simple wallet, account management and consensus algorithm.
+Main modules of repository are p2p network protocol, simple wallet, account management and consensus algorithm.
 
 There is no testnet running currently.
 
@@ -42,7 +42,7 @@ yum install -y nodejs
 ### 获取源码
 cd /data
 
-git clone https://github.com/Cyberveinofficial/CyberVeinChain.git
+git clone https://github.com/Cybervein-official/CyberVeinChain.git
 
 cd CyberVeinChain
 
